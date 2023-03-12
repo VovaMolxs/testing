@@ -157,7 +157,7 @@ h4{
     font-weight: 200;
 }
 
-.info_wicket {
+.info_1 {
     background: url(../img/section2.jpg) no-repeat;
     background-size: cover;
     margin: auto;
@@ -169,19 +169,19 @@ h4{
     padding: 150px 0 150px 0;
 }
 
-.wicket {
+.text_info_1 {
     margin: auto;
     text-align: center;
 }
 
-.wicket h2 {
+.text_info_1 h2 {
     font-size: 50px;
     font-weight: 400;
     font-family: 'Montserrat';
     color: #fefefe;
 }
 
-.wicket h4 {
+.text_info_1 h4 {
     margin: auto;
     font-size: 22px;
     font-weight: 300;
@@ -189,7 +189,7 @@ h4{
     margin-top: 20px;
 }
 
-.wicket button {
+.text_info_1 button {
     margin: auto;
     margin-top: 35px;
     width: 440px;
@@ -199,4 +199,44 @@ h4{
     font-weight: 700;
     font-size: 25px;
     border: 0px;
+}
+
+.info_2 {
+    background: url(../img/section3.jpg) no-repeat left;
+    
+}
+
+.content {
+    width: 65%;
+    margin: auto;
+    padding: 90px 0 90px 0;
+}
+
+.text_info_2 {
+    margin-left: 315px;
+}
+
+.text_info_2 h2 {
+    color: #3a4d60;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.text_info_2 h4 {
+    color: #3a4d60;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.text_info_2 h5 {
+    color: #3a4d60;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 20px;
 }
