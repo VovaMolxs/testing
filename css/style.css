@@ -1,0 +1,202 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    font-family: Montserrat;
+    margin-top: 180px;
+    width: 545px;
+    text-align: right;
+}
+
+h6 {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    font-family: Montserrat;
+    /* margin-top: 180px; */
+    width: 496px;
+    text-align: right;
+}
+
+header {
+    margin: auto;
+    background: url(../img/bg_header.jpg) no-repeat;
+    background-size: cover;
+    
+    height: 1060px;
+}
+
+header .content {
+    margin: auto;
+    width: 80%;
+}
+
+.navbar {
+    width: 100%;
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    display: inline-block;
+    
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+.logo img {
+    width: 50px;
+}
+
+
+
+.nav {
+    display: inherit;
+    margin-top: 7px;
+    margin-left: 165px;
+}
+
+.search {
+    display: block;
+    float: right;
+}
+
+.search input {
+    width: 170px;
+    height: 36px;
+    border-radius: 20px;
+    
+}
+
+input::placeholder {
+    color: rgb(41, 41, 41);
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+li a {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 30px;
+           
+}
+
+li a:hover {
+    border-bottom: 3px solid white;
+}
+
+button {
+    margin-left: 265px;
+    padding: 10px;
+    width: 280px;
+    height: 60px;
+    border-radius: 41px;
+    margin-top: 50px;
+    background-color: #8824cd;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fefefe;
+}
+
+button:hover {
+    background-color: #a37471;
+}
+
+.about {
+    
+    background-color: #2e3b4e;
+}
+
+.about_content {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+.about_text {
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+    margin: 20px;
+}
+
+
+.about_text h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #fefefe;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #fefefe;
+    font-weight: 200;
+}
+
+.info_wicket {
+    background: url(../img/section2.jpg) no-repeat;
+    background-size: cover;
+    margin: auto;
+    
+}
+
+.filter {
+    background-color: #ba4357a9;
+    padding: 150px 0 150px 0;
+}
+
+.wicket {
+    margin: auto;
+    text-align: center;
+}
+
+.wicket h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #fefefe;
+}
+
+.wicket h4 {
+    margin: auto;
+    font-size: 22px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.wicket button {
+    margin: auto;
+    margin-top: 35px;
+    width: 440px;
+    height: 70px;
+    background-color: #fefefe;
+    color: #ef0e4d;
+    font-weight: 700;
+    font-size: 25px;
+    border: 0px;
+}
