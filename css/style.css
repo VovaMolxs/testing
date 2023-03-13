@@ -28,11 +28,11 @@ header {
     margin: auto;
     background: url(../img/bg_header.jpg) no-repeat;
     background-size: cover;
+    padding-bottom: 400px;
     
-    height: 1060px;
 }
 
-header .content {
+header .content_nav {
     margin: auto;
     width: 80%;
 }
@@ -136,8 +136,8 @@ button:hover {
 .about_text {
     display: inline-block;
     text-align: left;
-    width: 400px;
-    margin: 20px;
+    width: 350px;
+    margin: 10px;
 }
 
 
@@ -164,7 +164,7 @@ h4{
     
 }
 
-.filter {
+.filter_1 {
     background-color: #ba4357a9;
     padding: 150px 0 150px 0;
 }
@@ -199,6 +199,10 @@ h4{
     font-weight: 700;
     font-size: 25px;
     border: 0px;
+}
+
+.text_info_1 button:hover {
+    background-color: #707070;
 }
 
 .info_2 {
@@ -239,4 +243,237 @@ h4{
     font-weight: 500;
     line-height: 22px;
     margin-top: 20px;
+}
+
+.info_3 {
+    background: url(../img/section4.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.filter_2 {
+    background-color: #4b1e5bb9;
+    padding: 150px 0 150px 0;
+    
+}
+
+.info_3 .text_info_1 button {
+    margin: auto;
+    margin-top: 35px;
+    width: 440px;
+    height: 70px;
+    background-color: #fefefe;
+    color: #ef0e4d;
+    font-weight: 700;
+    font-size: 25px;
+    border: 0px;
+}
+
+.text_info_3 {
+    margin: auto;
+    text-align: center;
+}
+
+.text_info_3 h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #fefefe;
+}
+
+.text_info_3 h4 {
+    margin: auto;
+    font-size: 22px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.text_info_3 button {
+    margin: auto;
+    margin-top: 35px;
+    width: 440px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 25px;
+    border: 0px;
+    
+}
+
+.info_4 {
+    background: url(../img/secttion5.jpg) no-repeat;
+    background-size: cover;
+}
+
+.content_2 {
+    margin: auto;
+    width: 80%;
+    padding: 500px 0 60px 0;
+}
+
+.text_info_4 button {
+    margin-left: 0px;
+    padding: 10px;
+    width: 280px;
+    height: 60px;
+    border-radius: 41px;
+    border: 2px solid;
+    margin-top: 50px;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fefefe;
+}
+
+.text_info_4 h2 {
+    font-size: 40px;
+    width: 730px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #fefefe;
+}
+
+.text_info_4 h5 {
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 60px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #fefefe;
+}
+
+.text_info_4 img {
+    display: block;
+    float: left;
+}
+
+.content_portfolio {
+    margin: auto;
+    padding: 50px 0 50px 0;
+    width: 60%;
+    text-align: center;
+}
+
+.text_info_4 h3 {
+    font-size: 35px;
+    margin-bottom: 70px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: #000000;
+}
+
+.photo {
+    display: inline-block;
+}
+
+.photos img {
+    margin: 5px;
+}
+
+.contact_us {
+    padding: 30px 0 30px 0;
+    background: #cccccc;
+}
+
+.content_contact_us {
+    width: 80%;
+    margin: auto;
+}
+
+.content_contact_us h2 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+hr {
+    width: 100px;
+    margin: 30px auto 30px auto;
+}
+
+.content_contact_us h5 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.red {
+    color: red;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+form p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+input {
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.form_imputs {
+    margin-top: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 160px;
+}
+
+.button input{
+    padding: 10px;
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 41px;
+    margin-top: 50px;
+    background-color: #8824cd;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fefefe;
+}
+
+.button input:hover {
+    background-color: #a37471;
+}
+
+footer {
+    
+    padding: 30px 0 30px 0;
+    
+    background-color: #000000;
+}
+
+.icons {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.icons img {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    
+}
+
+.icons a {
+    margin-right: 20px;
+}
+
+.icons a:last-child {
+    margin-right: 0px;
 }
